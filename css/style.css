@@ -19,47 +19,27 @@ html, body{
 }
 
 .container {
-	width: 805px;
+	max-width: 805px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 26px 26px 92px 26px;
-	box-shadow: 5px 5px 5px #000, 3px 3px 5px yellow;
 }
 
-/*
-.main-banner {
-	list-style: none;
-	color:  #fff;
-	
-	text-align: center;
-	padding-top: 28px;
-	padding-bottom: 260px;
+.header {
+	padding: 26px 64px 62px 64px;
+	color: #ebe7ef;
+	font-weight: 300;
 }
 
-.container {
-	width: 1170px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;	
-}
-
-.main-nav {
+.nav {
 	font-size: 0;
 	text-align: justify;
-	margin-bottom: 223px;
+	margin-bottom: 270px;
 }
 
-.main-nav:after {
+.nav:after {
 	content: '';
 	width: 100%;
 	display: inline-block;
-}
-
-.main-menu {
-	display: inline-block;
-	vertical-align: middle;
-	font-weight: 700;
 }
 
 .logo {
@@ -67,87 +47,59 @@ html, body{
 	vertical-align: middle;
 }
 
-.main-nav-link {
+.nav__link {
 	display: inline-block;
 }
 
-.main-nav-link:focus {
+.nav__link:focus {
 	box-shadow: 0 0 0 5px #0f0f;
 }
 
-.main-nav-link:hover {
+.nav__link:hover {
 	opacity: 0.5;
 }
 
-.main-nav-link:active {
+.nav__link:active {
 	opacity: 0.1;
 }
 
-.main-menu-item {
+.nav-menu {
 	display: inline-block;
-	font-size: 16px;
-	outline: 2px solid;
-	outline-color: transparent;
+	vertical-align: middle;
+	font-size: 0;
 }
 
-.main-menu-item:last-child {
-	padding-right: 0;
+.nav-menu__item {
+	display: inline-block;
+	font-size: 12px;	
+	font-weight: 300;
+	margin-right: 48px;
+
 }
 
-.main-menu-item-link {
-	color: inherit;
+.nav-menu__item:nth-child(4) {
+	margin-right: 115px;
+}
+
+.nav-menu__item:last-child {
+	margin-right: 0;
+}
+
+.nav-menu__link {
+	display: inline-block;
 	text-decoration: none;
-	padding: 15px 18px;
-	border-bottom: 2px solid;
-	border-bottom-color: transparent;
+	color: inherit;
 }
 
-.main-menu-item-link:focus {
+.nav-menu__link:focus {
 	box-shadow: 0 0 0 5px #0f0f;
 }
 
-.main-menu-item-link:hover {
-	color: #e71cb4;
-	border-bottom-color: #e71cb4;
-}
-
-.main-menu-item-link:active {
-	color: #000;
-	border-bottom-color: #000;
-}
-
-.header-title  {
-	font-size: 60px;
-	margin-bottom: 35px;
-}
-
-.header-description {
-	font-size: 30px;
-	margin-bottom: 77px;
-}
-
-
-.btn {
-	background-color: inherit;
-	color: #ffffff;
-}
-
-.btn:focus {
-	box-shadow: 0 0 0 5px #0f0f;
-}
-
-.btn:hover {
+.nav-menu__link:hover {
 	opacity: 0.5;
 }
 
-.btn:active {
+.nav-menu__link:active {
 	opacity: 0.1;
 }
 
-.btn-header {
-	min-width: 268px;	
-	border: 2px solid #fff;
-	border-radius: 8px;
-	text-transform: capitalize;
-	padding: 16px 35px;
-}*/
